@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff2f5" />
+  <title>a little letter for you ♡</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="sparkles" aria-hidden="true">
+    <span>♡</span><span>✦</span><span>♡</span><span>✧</span><span>♡</span>
+    <span>✦</span><span>♡</span><span>✧</span><span>♡</span><span>✦</span>
+  </div>
+
+  <main class="scene">
+    <p class="eyebrow">a tiny something, just for you</p>
+    <h1>i'm sorry, okay? <span>♡</span></h1>
+    <p class="hint" id="hint">tap the envelope to open your letter</p>
+
+    <section class="mail-stage" id="mailStage" aria-label="A cute letter envelope">
+      <img class="side-pic left-pic" src="assets/bear-apology.jpg" alt="A cute little bear making a sorry face" />
+      <img class="side-pic right-pic" src="assets/panda-apology.png" alt="A cute panda making a sorry face" />
+
+      <button class="envelope" id="envelope" aria-label="Open the apology letter" aria-expanded="false">
+        <span class="envelope-back"></span>
+        <span class="letter-peek">
+          <span class="peek-heart">♡</span>
+          <span class="peek-lines"></span>
+        </span>
+        <span class="envelope-front"></span>
+        <span class="envelope-flap"></span>
+        <span class="seal">♡</span>
+      </button>
+
+      <article class="letter" id="letter" aria-hidden="true">
+        <button class="close-letter" id="closeLetter" aria-label="Close letter">×</button>
+        <div class="letter-top">♡ a little note for you ♡</div>
+        <div class="letter-content">
+          <p class="dear">hiii cutiee,</p>
+          <p>i know it you feel something, it could be hurt, tampo, or nagalit because I wasn't able to play with you with the time a gave earlier.</p>
+          <p>I really wanted to play with you kanina, but nag extend sila, kasi nabitin. But, im not assuming na nag tampo you, maybe u had a bad day lang and ako yung inaantay mo.</p>
+          <p>My deepest apologies for not showing up, ill bawi with you the next days you gonna play.</p>
+          <p>If you feel anything bad towards me, or maybe on somthing else, you can open up naman din saakin. im here to listen.</p>
+          <p class="miss-you">i miss uuuu, and im sorry again. <span>♡</span></p>
+          <p class="signoff">sending you the biggest hug,<br /><strong>ry ♡</strong></p>
+        </div>
+        <div class="letter-bottom">you matter to me • always be gentle with yourself</div>
+      </article>
+    </section>
+
+    <p class="bottom-note" id="bottomNote">no pressure to reply right away. just wanted you to know. ♡</p>
+    <button class="replay" id="replay" hidden>fold the letter back ♡</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
